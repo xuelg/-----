@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .price {
+      font-size: 18px;
+    }
+    .price2 {
+      font-size: 15px;
+    }
+    .rectangle {
+      border: 1px solid #ccc;
+      padding: 5px;
+      margin: 5px;
+    }
+    .price-up {
+      color: red;  
+    }
+    .price-down {  
+      color: green;  
+    }
+  </style>
+</head>
+<body  style="width: 220px;">
+  <div class="price" style="text-align:center;">京东最新金价(元/克)</div>
+  <div class="rectangle price">实时价格：<span id="price"></span></div>
+  <div class="rectangle price">实时涨跌：<span id="upAndDownAmt" class="price2"></span>  <span id="upAndDownRate" class="price2"></div>
+  <div class="rectangle price">今日开盘价格：<span id="yesterdayPrice"></span></div>
+  <div class="rectangle price">上次刷新：<span id="time" class="price2"></span></div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -25,12 +25,35 @@
     }
   </style>
 </head>
-<body  style="width: 220px;">
-  <div class="price" style="text-align:center;">京东最新金价(元/克)</div>
-  <div class="rectangle price">实时价格：<span id="price"></span></div>
-  <div class="rectangle price">实时涨跌：<span id="upAndDownAmt" class="price2"></span>  <span id="upAndDownRate" class="price2"></div>
-  <div class="rectangle price">今日开盘价格：<span id="yesterdayPrice"></span></div>
-  <div class="rectangle price">上次刷新：<span id="time" class="price2"></span></div>
+<body  style="width: 320px;">
+  <h4 class="price" style="text-align:center;">京东最新金价(元/克)</h4>
+  <table border="1">
+    <tr>
+      <td class="rectangle price">积存金</td>
+      <td class="rectangle price">民生银行</td>
+      <td class="rectangle price">浙商银行</td>
+    </tr>
+    <tr>
+      <td class="rectangle price">实时价格</td>
+      <td class="rectangle price"><span id="price"></span></td>
+      <td class="rectangle price"><span id="price2"></span></td>
+    </tr>
+    <tr>
+      <td class="rectangle price">实时涨跌</td>
+      <td class="rectangle price"><span id="upAndDownAmt" class="price2"></span>  <span id="upAndDownRate" class="price2"></td>
+        <td class="rectangle price"><span id="upAndDownAmt2" class="price2"></span>  <span id="upAndDownRate2" class="price2"></td>
+    </tr>
+    <tr>
+      <td class="rectangle price">开盘价格</td>
+      <td class="rectangle price"><span id="yesterdayPrice"></span></td>
+      <td class="rectangle price"><span id="yesterdayPrice2"></span></td>
+    </tr>
+    <tr>
+      <td class="rectangle price">上次刷新</td>
+      <td class="rectangle price"><span id="time" class="price2"></span></td>
+      <td class="rectangle price"><span id="time2" class="price2"></span></td>
+    </tr>
+  </table>
   <script src="popup.js"></script>
 </body>
 </html>

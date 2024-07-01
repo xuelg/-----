@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "黄金实时价格（京东金融）",
-  "version": "1.1",
+  "version": "1.2",
   "description": "查看京东金融的黄金实时价格",
   "browser_action": {
     "default_popup": "popup.html"
